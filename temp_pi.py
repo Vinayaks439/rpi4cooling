@@ -2,10 +2,10 @@
 
 import os
 
-print("Yo mama this the temperature of yer cpu")
+print("Yo this the temperature of your cpu")
 
 for cmd in range(6):
     cmd = 'cat /sys/class/thermal/thermal_zone0/temp'
     os.system(cmd)
 
-print("there you go mutterficker")
+print("there you go")
